@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google</title>
+        <style>
+            .footer{
+                display: flex;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: auto;
+                align-items: center;
+                background: lightgray;
+                height: 25px;
+                min-width: 500px;
+            }
+
+            a:visited{
+                color: rgb(92, 91, 91);
+                text-decoration: none;
+            }
+
+            a:link{
+                color: rgb(92, 91, 91);
+                text-decoration: none;
+            }
+
+            .flex-nav{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                height: 35px;
+                align-items: center;
+                font-family: Arial, sans-serif;
+            }
+
+            .flex-logo{
+                display: flex;
+                flex-direction: column;
+                height: 350px;
+                align-items: center;
+                justify-content: flex-end;
+                border-radius: 45px;
+            }
+
+            .flex-buttons{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                height: 500px;
+                align-items: flex-start;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <div class="flex-nav">
+                <div>
+                <a href="">About</a>
+                <a href="">Store</a>
+                </div>
+                <div>
+                <a href="">Gmail</a>
+                <a href="">Images</a>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <div class="flex-containter">
+                <div class="flex-logo">
+                    <div><img src="logo.png" alt="Google logo"></div>
+                    <div><input type="search" size="50" style="border-radius: 25px"></div>
+                </div>
+                <br></br>
+                <div class="flex-buttons">
+                    <div><input type="submit" value="Google Search"></div>
+                    <div><input type="submit" value="I'm Feeling Lucky"></div>
+                </div>
+            </div>
+        </main>
+    </body>
+    <footer>
+        <div class="footer">
+            <a href="">Settings</a>
+        </div>
+    </footer>
+</html>
